@@ -1,28 +1,28 @@
 class Cora < Formula
   desc "Zero-knowledge secret injection runtime for AI agents"
   homepage "https://github.com/keton-id/cora"
-  version "0.6.1"
+  version "0.7.0"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/keton-id/cora/releases/download/v0.6.1/cr-0.6.1-aarch64-macos.tar.gz"
-      sha256 "1fa37ec118640d49e44499301a0b0187042a8371d5d6cdea69fe22cf4841dbb2"
+      url "https://github.com/keton-id/cora/releases/download/v0.7.0/cr-0.7.0-aarch64-macos.tar.gz"
+      sha256 "34f17eb9247ae2c6ef4e44f8fdba28ae8b833ac4db0f0fec1a7bada0a10eeb92"
     end
     on_intel do
-      url "https://github.com/keton-id/cora/releases/download/v0.6.1/cr-0.6.1-x86_64-macos.tar.gz"
-      sha256 "4e86f85f35346314747e1e478b24b591f22fea1b5bc3c19a8f47d12c0d352bb2"
+      url "https://github.com/keton-id/cora/releases/download/v0.7.0/cr-0.7.0-x86_64-macos.tar.gz"
+      sha256 "f85fda7369146b333fc275a5cd588fb599f3a9990e214fcd2c9dbc159460b888"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/keton-id/cora/releases/download/v0.6.1/cr-0.6.1-aarch64-linux.tar.gz"
-      sha256 "00d8d8c4eed3a339c32509abab79b47497604b55c25941d1ca2e863a644afaa3"
+      url "https://github.com/keton-id/cora/releases/download/v0.7.0/cr-0.7.0-aarch64-linux.tar.gz"
+      sha256 "1f1029784732d0ca5c0b23e3f233b0a1f90c4b3fc6b7118032637d1341b46159"
     end
     on_intel do
-      url "https://github.com/keton-id/cora/releases/download/v0.6.1/cr-0.6.1-x86_64-linux.tar.gz"
-      sha256 "f6f2b8a98660bd18db004f0eb0af842a4f3c4e95f060a4cd068af23435ec34de"
+      url "https://github.com/keton-id/cora/releases/download/v0.7.0/cr-0.7.0-x86_64-linux.tar.gz"
+      sha256 "d7a01b0a153f6c3b6a200683e9964b0c4ebbe211c7bf6a90b8d210a42661765a"
     end
   end
 
