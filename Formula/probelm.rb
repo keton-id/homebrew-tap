@@ -5,16 +5,16 @@ class Probelm < Formula
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/keton-id/probelm/releases/download/v1.0.0/probelm-macos-aarch64.tar.gz"
-    sha256 "ebfe2c00f68301868340983223f02e7b1ad0601e24e6b2195a35ebf4d58ae8a4"
+    sha256 "395b70173c756bfe54f9c8a63188e1c1bbe454e1bb9ca2f7b43fc60cbbb58829"
   elsif OS.mac?
     url "https://github.com/keton-id/probelm/releases/download/v1.0.0/probelm-macos-x86_64.tar.gz"
-    sha256 "0df3a9996906980516220539a6b1059053aef1a4de3a588b76315281364536ae"
+    sha256 "e5252af8ae05aff33583a66190440f08b7d8643456d52ee31b2d93eb80939aea"
   elsif OS.linux? && Hardware::CPU.arm?
     url "https://github.com/keton-id/probelm/releases/download/v1.0.0/probelm-linux-aarch64.tar.gz"
-    sha256 "b8038805e0b132ca3ae822a045c80b13bad0780300679db5354af5dce480326e"
+    sha256 "42c7055ed3f67cf547accd1dc8b85ddd7f6379bda20c41dcbf211bd62c290f36"
   elsif OS.linux?
     url "https://github.com/keton-id/probelm/releases/download/v1.0.0/probelm-linux-x86_64.tar.gz"
-    sha256 "81ad10ddd305fd15fb84663efb8677300fc2f1d202d2a7ce8f4a95f7678dde9b"
+    sha256 "a2f63c7afd5478b63ad8b71047570b7f0e1682e5e11af06575dee3459fa67473"
   end
 
   def install
