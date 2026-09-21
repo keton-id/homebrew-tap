@@ -1,20 +1,20 @@
 class Probelm < Formula
   desc "Probe and benchmark models through an OpenAI-compatible gateway"
   homepage "https://github.com/keton-id/probelm"
-  version "1.0.0"
+  version "1.1.0"
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/keton-id/probelm/releases/download/v1.0.0/probelm-macos-aarch64.tar.gz"
-    sha256 "395b70173c756bfe54f9c8a63188e1c1bbe454e1bb9ca2f7b43fc60cbbb58829"
+    url "https://github.com/keton-id/probelm/releases/download/v1.1.0/probelm-macos-aarch64.tar.gz"
+    sha256 "3ac9c8039f68fb5e17ecdecedfae77022360c7b829c51c07cd944b11639a20ae"
   elsif OS.mac?
-    url "https://github.com/keton-id/probelm/releases/download/v1.0.0/probelm-macos-x86_64.tar.gz"
-    sha256 "e5252af8ae05aff33583a66190440f08b7d8643456d52ee31b2d93eb80939aea"
+    url "https://github.com/keton-id/probelm/releases/download/v1.1.0/probelm-macos-x86_64.tar.gz"
+    sha256 "e1381ca81add1cbc482e47b676e57c31dc61f7db6ce56e4796742bc4b40a60bf"
   elsif OS.linux? && Hardware::CPU.arm?
-    url "https://github.com/keton-id/probelm/releases/download/v1.0.0/probelm-linux-aarch64.tar.gz"
-    sha256 "42c7055ed3f67cf547accd1dc8b85ddd7f6379bda20c41dcbf211bd62c290f36"
+    url "https://github.com/keton-id/probelm/releases/download/v1.1.0/probelm-linux-aarch64.tar.gz"
+    sha256 "98c53824d8bbb2ba685efd29a75f38f7749f7b6a02a3ec6d6ff0026f965d8830"
   elsif OS.linux?
-    url "https://github.com/keton-id/probelm/releases/download/v1.0.0/probelm-linux-x86_64.tar.gz"
-    sha256 "a2f63c7afd5478b63ad8b71047570b7f0e1682e5e11af06575dee3459fa67473"
+    url "https://github.com/keton-id/probelm/releases/download/v1.1.0/probelm-linux-x86_64.tar.gz"
+    sha256 "59ce495877c0bc077ee60b3da023be78e804eb81de843a13cec677b832c050bb"
   end
 
   def install
